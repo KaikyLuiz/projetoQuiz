@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4B309980-05CF-47BD-961F-19E0DFB087EC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>projetoQuiz.My.MyApplication</StartupObject>
+    <RootNamespace>projetoQuiz</RootNamespace>
+    <AssemblyName>projetoQuiz</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>projetoQuiz.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>projetoQuiz.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="inicio.Designer.vb">
+      <DependentUpon>inicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="pontuacao.Designer.vb">
+      <DependentUpon>pontuacao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pontuacao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="questao1.Designer.vb">
+      <DependentUpon>questao1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="questao1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="questao10.Designer.vb">
+      <DependentUpon>questao10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="questao10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="questao2.Designer.vb">
+      <DependentUpon>questao2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="questao2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="questao3.Designer.vb">
+      <DependentUpon>questao3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="questao3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="questao4.Designer.vb">
+      <DependentUpon>questao4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="questao4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="questao5.Designer.vb">
+      <DependentUpon>questao5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="questao5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="questao6.Designer.vb">
+      <DependentUpon>questao6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="questao6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="questao7.Designer.vb">
+      <DependentUpon>questao7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="questao7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="questao8.Designer.vb">
+      <DependentUpon>questao8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="questao8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="questao9.Designer.vb">
+      <DependentUpon>questao9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="questao9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="splash_screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="splash_screen.Designer.vb">
+      <DependentUpon>splash_screen.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="inicio.resx">
+      <DependentUpon>inicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pontuacao.resx">
+      <DependentUpon>pontuacao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="questao1.resx">
+      <DependentUpon>questao1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="questao10.resx">
+      <DependentUpon>questao10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="questao2.resx">
+      <DependentUpon>questao2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="questao3.resx">
+      <DependentUpon>questao3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="questao4.resx">
+      <DependentUpon>questao4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="questao5.resx">
+      <DependentUpon>questao5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="questao6.resx">
+      <DependentUpon>questao6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="questao7.resx">
+      <DependentUpon>questao7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="questao8.resx">
+      <DependentUpon>questao8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="questao9.resx">
+      <DependentUpon>questao9.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="splash_screen.resx">
+      <DependentUpon>splash_screen.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questao3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questao5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questao6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questao7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questao8.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questao9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questao10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\errado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questao1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questao2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inicio_e_pontuação.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icone_pronto1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inicio_e_pontuação1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inicio_e_pontuação2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icone_pronto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icone_pronto2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questao41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gifpontuacao.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questao102.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kurtis Blow - Basketball %28Official Video%29%28MP3_128K%29_1 %28online-audio-converter.com%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Som-ativado.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
